@@ -40,20 +40,6 @@ jobs:
                 done
               env:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            - name: Checkout linglong release
-              uses: actions/checkout@v4
-              with:
-                  ref: 294988fe388c4d7d82196fc5eb5dce6edcaf7772 # 指定玲珑项目的 commit 提交，可能文档有小部分修改，不需要从 tag 获取
-                  path: tmp
-                  repository: OpenAtom-Linyaps/linyaps
-                  sparse-checkout: |
-                      docs/pages
-                  sparse-checkout-cone-mode: false
-            - name: set release version
-              run: |
-                  rm -rf en guide
-                  mv tmp/docs/pages/guide .
-                  mv tmp/docs/pages/en .
             - uses: actions/setup-node@v3
               with:
                   node-version: 16
