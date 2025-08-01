@@ -2,10 +2,11 @@
 //
 // SPDX-License-Identifier: LGPL-3.0-or-later
 
-const { sidebar } = require('./theme/sidebar.js')
-const { generateNav } = require('./theme/nav.js');
+const { sidebar } = require("./theme/sidebar.js");
+const { generateNav } = require("./theme/nav.js");
 
 module.exports = {
+    lastUpdated: true,
     head: [
         [
             "script",
@@ -21,7 +22,7 @@ module.exports = {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-          
+
             gtag('config', 'G-JBPRYNBJZ7');
             `,
         ],
@@ -33,22 +34,26 @@ module.exports = {
             title: "玲珑",
             description: "独立包格式",
             themeConfig: {
-                nav: generateNav('zh')
-            }
+                nav: generateNav("zh"),
+            },
         },
         en: {
             lang: "en-US",
             title: "linglong",
             description: "hermetic package format",
             themeConfig: {
-                nav: generateNav('en')
-            }
+                nav: generateNav("en"),
+            },
         },
     },
     themeConfig: {
         logo: "/asset/logo.svg",
         siteTitle: false,
         sidebar: sidebar,
+        editLink: {
+            pattern:
+                "https://github.com/OpenAtom-Linyaps/linyaps/edit/master/docs/pages/:path",
+        },
         locales: {
             "/": {
                 nav: [
@@ -136,7 +141,7 @@ module.exports = {
                         ],
                     },
                 ],
-            }
+            },
         },
         socialLinks: [
             { icon: "github", link: "https://github.com/linuxdeepin" },
