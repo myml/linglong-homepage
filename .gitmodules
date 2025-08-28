@@ -1,0 +1,15 @@
+[submodule "linyaps/1.5.x"]
+	path = linyaps/1.5.x
+	url = https://github.com/OpenAtom-Linyaps/linyaps.git
+[submodule "linyaps/1.6.x"]
+	path = linyaps/1.6.x
+	url = https://github.com/OpenAtom-Linyaps/linyaps.git
+[submodule "linyaps/1.7.x"]
+	path = linyaps/1.7.x
+	url = https://github.com/OpenAtom-Linyaps/linyaps.git
+[submodule "linyaps/1.8.x"]
+	path = linyaps/1.8.x
+	url = https://github.com/OpenAtom-Linyaps/linyaps.git
+[submodule "linyaps/1.9.x"]
+	path = linyaps/1.9.x
+	url = https://github.com/OpenAtom-Linyaps/linyaps.git
