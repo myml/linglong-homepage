@@ -2,13 +2,11 @@
 //
 // SPDX-License-Identifier: LGPL-3.0-or-later
 
-import DefaultTheme from 'vitepress/theme'
-
-import NewLayout from './components/NewLayout.vue'
-
-import './custom.scss'
+import DefaultTheme from "vitepress/theme";
+import MyLayout from "./MyLayout.vue";
 
 export default {
-    ...DefaultTheme,
-    Layout: NewLayout
-}
+  extends: DefaultTheme,
+  // 使用注入插槽的包装组件覆盖默认 Layout
+  Layout: MyLayout,
+};
