@@ -1,0 +1,362 @@
+{
+  "zh": [
+    {
+      "collapsible": true,
+      "text": "开始",
+      "items": [
+        {
+          "text": "概述",
+          "link": "/guide/1.7.x/start/whatis.md"
+        },
+        {
+          "text": "安装",
+          "link": "/guide/1.7.x/start/install.md"
+        },
+        {
+          "text": "简单示例",
+          "link": "/guide/1.7.x/start/how_to_use.md"
+        }
+      ]
+    },
+    {
+      "collapsible": true,
+      "text": "ll-cli",
+      "items": [
+        {
+          "text": "简介",
+          "link": "/guide/1.7.x/ll-cli/introduction.md"
+        },
+        {
+          "text": "列出已安装的应用",
+          "link": "/guide/1.7.x/ll-cli/list.md"
+        },
+        {
+          "text": "从远程仓库查询应用",
+          "link": "/guide/1.7.x/ll-cli/query.md"
+        },
+        {
+          "text": "安装应用",
+          "link": "/guide/1.7.x/ll-cli/install.md"
+        },
+        {
+          "text": "运行应用",
+          "link": "/guide/1.7.x/ll-cli/run.md"
+        },
+        {
+          "text": "卸载应用",
+          "link": "/guide/1.7.x/ll-cli/uninstall.md"
+        },
+        {
+          "text": "更新应用",
+          "link": "/guide/1.7.x/ll-cli/update.md"
+        },
+        {
+          "text": "查看运行中的应用",
+          "link": "/guide/1.7.x/ll-cli/ps.md"
+        },
+        {
+          "text": "进入容器内部",
+          "link": "/guide/1.7.x/ll-cli/exec.md"
+        },
+        {
+          "text": "强制退出应用",
+          "link": "/guide/1.7.x/ll-cli/kill.md"
+        }
+      ]
+    },
+    {
+      "collapsible": true,
+      "text": "ll-builder",
+      "items": [
+        {
+          "text": "简介",
+          "link": "/guide/1.7.x/ll-builder/introduction.md"
+        },
+        {
+          "text": "创建项目",
+          "link": "/guide/1.7.x/ll-builder/create.md"
+        },
+        {
+          "text": "构建应用",
+          "link": "/guide/1.7.x/ll-builder/build.md"
+        },
+        {
+          "text": "运行应用",
+          "link": "/guide/1.7.x/ll-builder/run.md"
+        },
+        {
+          "text": "转换 appimage",
+          "link": "/guide/1.7.x/ll-builder/convert.md"
+        },
+        {
+          "text": "导出 layer 文件",
+          "link": "/guide/1.7.x/ll-builder/export.md"
+        },
+        {
+          "text": "配置文件",
+          "link": "/guide/1.7.x/ll-builder/manifests.md"
+        },
+        {
+          "text": "上架应用到商店",
+          "link": "/guide/1.7.x/ll-builder/github.md"
+        }
+      ]
+    },
+    {
+      "collapsible": true,
+      "text": "ll-pica",
+      "items": [
+        {
+          "text": "简介",
+          "link": "/guide/1.7.x/ll-pica/introduction.md"
+        },
+        {
+          "text": "初始化配置",
+          "link": "/guide/1.7.x/ll-pica/init.md"
+        },
+        {
+          "text": "转换应用",
+          "link": "/guide/1.7.x/ll-pica/convert.md"
+        },
+        {
+          "text": "添加依赖",
+          "link": "/guide/1.7.x/ll-pica/adep.md"
+        },
+        {
+          "text": "转换配置文件简介",
+          "link": "/guide/1.7.x/ll-pica/manifests.md"
+        }
+      ]
+    },
+    {
+      "collapsible": true,
+      "text": "ll-appimage-convert",
+      "items": [
+        {
+          "text": "简介",
+          "link": "/guide/1.7.x/ll-appimage-convert/introduction.md"
+        },
+        {
+          "text": "转换应用",
+          "link": "/guide/1.7.x/ll-appimage-convert/convert-appimage.md"
+        }
+      ]
+    },
+    {
+      "collapsible": true,
+      "text": "ll-flatpak-convert",
+      "items": [
+        {
+          "text": "简介",
+          "link": "/guide/1.7.x/ll-flatpak-convert/introduction.md"
+        },
+        {
+          "text": "转换应用",
+          "link": "/guide/1.7.x/ll-flatpak-convert/convert-flatpak.md"
+        }
+      ]
+    },
+    {
+      "collapsible": true,
+      "text": "调试应用",
+      "items": [
+        {
+          "text": "IDE中调试应用",
+          "link": "/guide/1.7.x/debug/debug.md"
+        },
+        {
+          "text": "常见构建问题",
+          "link": "/guide/1.7.x/debug/ll-builder-faq.md"
+        },
+        {
+          "text": "常见运行问题",
+          "link": "/guide/1.7.x/debug/faq.md"
+        },
+        {
+          "text": "常见转换问题",
+          "link": "/guide/1.7.x/debug/ll-pica-faq.md"
+        }
+      ]
+    }
+  ],
+  "en": [
+    {
+      "collapsible": true,
+      "text": "Getting Started",
+      "items": [
+        {
+          "text": "summary",
+          "link": "/en/guide/1.7.x/start/whatis.md"
+        },
+        {
+          "text": "Install",
+          "link": "/en/guide/1.7.x/start/install.md"
+        },
+        {
+          "text": "Simple example",
+          "link": "/en/guide/1.7.x/start/how_to_use.md"
+        }
+      ]
+    },
+    {
+      "collapsible": true,
+      "text": "ll-cli",
+      "items": [
+        {
+          "text": "Introduction",
+          "link": "/en/guide/1.7.x/ll-cli/introduction.md"
+        },
+        {
+          "text": "List Installed Apps",
+          "link": "/en/guide/1.7.x/ll-cli/list.md"
+        },
+        {
+          "text": "Query Apps From Remote",
+          "link": "/en/guide/1.7.x/ll-cli/query.md"
+        },
+        {
+          "text": "Install App",
+          "link": "/en/guide/1.7.x/ll-cli/install.md"
+        },
+        {
+          "text": "Run App",
+          "link": "/en/guide/1.7.x/ll-cli/run.md"
+        },
+        {
+          "text": "Uninstall App",
+          "link": "/en/guide/1.7.x/ll-cli/uninstall.md"
+        },
+        {
+          "text": "Update App",
+          "link": "/en/guide/1.7.x/ll-cli/update.md"
+        },
+        {
+          "text": "View Running Apps",
+          "link": "/en/guide/1.7.x/ll-cli/ps.md"
+        },
+        {
+          "text": "Attach To Container",
+          "link": "/en/guide/1.7.x/ll-cli/exec.md"
+        },
+        {
+          "text": "Force Quit App",
+          "link": "/en/guide/1.7.x/ll-cli/kill.md"
+        }
+      ]
+    },
+    {
+      "collapsible": true,
+      "text": "ll-builder",
+      "items": [
+        {
+          "text": "Introduction",
+          "link": "/en/guide/1.7.x/ll-builder/introduction.md"
+        },
+        {
+          "text": "Create Project",
+          "link": "/en/guide/1.7.x/ll-builder/create.md"
+        },
+        {
+          "text": "Build App",
+          "link": "/en/guide/1.7.x/ll-builder/build.md"
+        },
+        {
+          "text": "Run Compiled App",
+          "link": "/en/guide/1.7.x/ll-builder/run.md"
+        },
+        {
+          "text": "Convert AppImage",
+          "link": "/en/guide/1.7.x/ll-builder/convert.md"
+        },
+        {
+          "text": "Export Layer File",
+          "link": "/en/guide/1.7.x/ll-builder/export.md"
+        },
+        {
+          "text": "Manifests",
+          "link": "/en/guide/1.7.x/ll-builder/manifests.md"
+        },
+        {
+          "text": "App To Store",
+          "link": "/en/guide/1.7.x/ll-builder/github.md"
+        }
+      ]
+    },
+    {
+      "collapsible": true,
+      "text": "ll-pica",
+      "items": [
+        {
+          "text": "ll-pica Introduction",
+          "link": "/en/guide/1.7.x/ll-pica/introduction.md"
+        },
+        {
+          "text": "Initialization configuration",
+          "link": "/en/guide/1.7.x/ll-pica/init.md"
+        },
+        {
+          "text": "Conversion application",
+          "link": "/en/guide/1.7.x/ll-pica/convert.md"
+        },
+        {
+          "text": "Add dependency",
+          "link": "/en/guide/1.7.x/ll-pica/adep.md"
+        },
+        {
+          "text": "Manifests",
+          "link": "/en/guide/1.7.x/ll-pica/manifests.md"
+        }
+      ]
+    },
+    {
+      "collapsible": true,
+      "text": "ll-appimage-convert",
+      "items": [
+        {
+          "text": "Introduction",
+          "link": "/en/guide/1.7.x/ll-appimage-convert/introduction.md"
+        },
+        {
+          "text": "Conversion application",
+          "link": "/en/guide/1.7.x/ll-appimage-convert/convert-appimage.md"
+        }
+      ]
+    },
+    {
+      "collapsible": true,
+      "text": "ll-flatpak-convert",
+      "items": [
+        {
+          "text": "Introduction",
+          "link": "/en/guide/1.7.x/ll-flatpak-convert/introduction.md"
+        },
+        {
+          "text": "Conversion application",
+          "link": "/en/guide/1.7.x/ll-flatpak-convert/convert-flatpak.md"
+        }
+      ]
+    },
+    {
+      "collapsible": true,
+      "text": "Debug App",
+      "items": [
+        {
+          "text": "Debug App In IDE",
+          "link": "/en/guide/1.7.x/debug/debug.md"
+        },
+        {
+          "text": "Build FAQ",
+          "link": "/en/guide/1.7.x/debug/ll-builder-faq.md"
+        },
+        {
+          "text": "Run FAQ",
+          "link": "/en/guide/1.7.x/debug/faq.md"
+        },
+        {
+          "text": "Convert FAQ",
+          "link": "/en/guide/1.7.x/debug/ll-pica-faq.md"
+        }
+      ]
+    }
+  ]
+}

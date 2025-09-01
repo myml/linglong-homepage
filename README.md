@@ -24,7 +24,7 @@ yarn dev
 
 We encourage you to report issues and contribute changes
 
-* [Contribution guide for developers](https://github.com/linuxdeepin/developer-center/wiki/Contribution-Guidelines-for-Developers-en). (English)
+- [Contribution guide for developers](https://github.com/linuxdeepin/developer-center/wiki/Contribution-Guidelines-for-Developers-en). (English)
 
 ## License
 
